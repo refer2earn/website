@@ -6,17 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Refer2Earn',
+  tagline: 'Web3 Referal Protocol',
+  url: 'https://refer2earn.github.io',
+  baseUrl: '/website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Refer2Earn', // Usually your GitHub org/user name.
+  organizationName: 'refer2earn', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful

@@ -14,11 +14,18 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p>Earn rewards for referring crypto project</p>
+        <p>Powered by on-chain events</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="https://app.refer2earn.com/pools">
+            Start Referring
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://app.refer2earn.com/pools/create">
+            Create A Pool
           </Link>
         </div>
       </div>
@@ -30,8 +37,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description="Earn rewards through a Web3 Referral Protocol by recommending crypto projects to your friends and community.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
