@@ -10,22 +10,17 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p>Earn rewards for referring crypto project</p>
-        <p>Powered by on-chain events</p>
-        <div className={styles.buttons}>
+    <header className="bg-blue-500">
+      <div className="container mx-auto text-center py-24">
+        <h1 className="text-4xl font-bold text-white">{siteConfig.title}</h1>
+        <p className="text-xl py-6 text-white">{siteConfig.tagline}</p>
+
+        <div className="py-10">
           <Link
-            className="button button--secondary button--lg"
-            to="https://app.refer2earn.com/pools">
-            Start Referring
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="https://app.refer2earn.com/pools/create">
-            Create A Pool
+            className="bg-white rounded-md text-gray-500 px-4 py-2"
+            to="/docs/intro"
+          >
+            Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
