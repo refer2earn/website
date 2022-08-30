@@ -17,28 +17,28 @@ const items: Item[] = [
         comingSoon: false,
         description: "Share your referral link and earn rewards for every token bought through your link.",
         linkText: "Learn more",
-        linkUrl: "/docs/refer"
+        linkUrl: "/docs/guides/promote"
     },
     {
         heading: "Buy To Earn",
         comingSoon: false,
         description: "Buy tokens through referral links and earn rewards for participating in the ecosystem.",
         linkText: "Learn more",
-        linkUrl: "/docs/buy"
+        linkUrl: "/docs/guides/buy"
     },
     {
         heading: "Stake To Earn",
         comingSoon: false,
         description: "Earn rewards for securing the oracle network through our pre-oracle staking pool.",
         linkText: "Learn more",
-        linkUrl: "/docs/stake"
+        linkUrl: "/docs/advanced/staking"
     },
     {
         heading: "Provide Liquidity",
         comingSoon: true,
         description: "Earn rewards by providing BNB/R2E liquidity on pancakeswap.",
         linkText: "Learn more",
-        linkUrl: "/docs/liquidity"
+        linkUrl: "/docs/advanced/liquidity"
     },
 ]
 

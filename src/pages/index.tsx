@@ -25,13 +25,13 @@ function HomepageHeader() {
             <div className="flex gap-2">
               <Link
                 className="bg-gradient-to-r from-amber-400 to-amber-600 hover:to-amber-400 rounded-md text-slate-900 hover:text-slate-900 hover:no-underline font-semibold px-4 py-2"
-                to="/docs"
+                to="/docs/intro"
               >
                 Documentation
               </Link>
               <Link
                 className="border border-amber-400 font-semibold text-white hover:text-white hover:no-underline hover:bg-white hover:bg-opacity-10 rounded-md px-4 py-2"
-                to="/docs/roadmap"
+                to="/docs/advanced/roadmap"
               >
                 Roadmap
               </Link>

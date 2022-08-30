@@ -58,17 +58,17 @@ const config = {
     ({
       navbar: {
         title: 'Refer2Earn',
-        logo: {
-          alt: 'Refer2Earn Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'Refer2Earn Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'docs/intro',
-          //   position: 'left',
-          //   label: 'Docs',
-          // },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Docs',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/refer2earn',

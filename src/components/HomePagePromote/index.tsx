@@ -14,7 +14,7 @@ export default function HomepagePromote(): JSX.Element {
                     <div>
                         <Link
                             className="bg-gradient-to-r text-lg from-amber-400 to-amber-600 hover:to-amber-400 rounded-md text-slate-900 hover:text-slate-900 hover:no-underline font-semibold px-4 py-2"
-                            to="/docs"
+                            to="/docs/intro"
                         >
                             Documentation
                         </Link>
