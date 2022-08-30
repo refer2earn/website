@@ -2,46 +2,27 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# About
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Refer2Earn is a Web3 Referral Protocol. Through the protocol, blockchain projects can reward their community members for the true value add of their promotions.
 
-## Getting Started
+The ecosystem built around Refer2Earn allows all parties to benefit from the interaction.
 
-Get started by **creating a new site**.
+| Actor | Benefit |
+|-------|---------|
+| Project | Increased visibility, purchase volume, and rewards for hodlers |
+| Promoter | Earn rewards based on the measurable on-chain value they generate |
+| Buyer | Earn rewards based on purchasing tokens through a referral link |
+| Staker | Redistribution of protocol fees |
+| Liquidity Provider | Fees based on $R2E trading volume |
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## How It Works
 
-### What you'll need
+Promoting projects can be tough, Refer2Earn can help!
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+| Action | Actor | Description |
+|--------|-------|-------------|
+| [Create a pool](/docs/guides/pools) | Project | Select your token, specify reward, marketplace, duration, etc. |
+| [Promote a pool](/docs/guides/promote) | Promoter | Generate referral link and share it with buyers |
+| [Buy + Earn](/docs/guides/buy) | Buyer | Buy through the referral link and earn from the pool |
+| [Harvest](/docs/guides/harvest) | Promoter & Buyer | Collect rewards for HODLing tokens |

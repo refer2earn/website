@@ -7,5 +7,30 @@
 }
 
 .border-gradient-primary {
+  @apply border-gradient;
   border-image-source: linear-gradient(to left, theme('colors.amber.400'), theme('colors.amber.600'));
+}
+
+h1 {
+  @apply text-4xl font-semibold text-slate-900;
+}
+
+h2 {
+  @apply text-3xl font-semibold text-slate-900;
+}
+
+h3 {
+  @apply text-2xl font-semibold text-slate-900;
+}
+
+h4 {
+  @apply text-xl font-semibold text-slate-900;
+}
+
+p, li {
+  @apply text-slate-600;
+}
+
+a {
+  @apply text-blue-600;
 }

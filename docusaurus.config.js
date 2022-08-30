@@ -63,12 +63,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'docs/intro',
+          //   position: 'left',
+          //   label: 'Docs',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/refer2earn',
@@ -84,7 +84,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
@@ -93,16 +93,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/refer2earn',
-              },
-              {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/refer2earn',
               },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/refer2earn',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/refer2earn',
               },
             ],
           },
