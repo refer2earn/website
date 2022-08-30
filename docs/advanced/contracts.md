@@ -6,8 +6,8 @@ sidebar_position: 6
 
 | Contract | Chain | Address | Audit |
 |----------|-------|---------|-------|
-| Token | BNB Chain | TBD | TBD |
-| Pool Factory | BNB Chain | TBD | TBD |
-| Staking | BNB Chain | TBD | TBD |
-| Developer NFT Collection | BNB Chain | TBD | TBD |
-| Partner NFT Collection | BNB Chain | TBD | TBD |
+| Token | BNB Chain | - | - |
+| Pool Factory | BNB Chain | - | - |
+| Staking | BNB Chain | - | - |
+| Developer NFT Collection | BNB Chain | - | - |
+| Partner NFT Collection | BNB Chain | - | - |
