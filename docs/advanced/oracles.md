@@ -2,4 +2,4 @@
 sidebar_position: 3
 ---
 
-# Staking
+# Staking Oracles
