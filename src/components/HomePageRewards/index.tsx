@@ -31,7 +31,7 @@ const items: Item[] = [
         comingSoon: false,
         description: "Earn rewards for securing the oracle network through our pre-oracle staking pool.",
         linkText: "Learn more",
-        linkUrl: "/docs/advanced/staking"
+        linkUrl: "/docs/advanced/oracles"
     },
     {
         heading: "Provide Liquidity",
