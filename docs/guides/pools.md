@@ -20,8 +20,9 @@ Creating a referral pool is easy!
 |---|------|
 | 1 | Go to the [pool page](https://app.refer2earn.com/my-pools) on the dapp |
 | 2 | Connect your wallet |
-| 3 | Choose the token you would like to promote |
-| 4 | Configure the pool parameters |
-| 5 | Deposit the token amount |
+| 3 | Tap the "Create pool" button |
+| 4 | Choose the token you would like to promote |
+| 5 | Configure the pool parameters |
+| 6 | Deposit the token amount |
 
 Head over to [Promote & Earn](/docs/guides/promote) to create a referral link and start earning from your pool.
